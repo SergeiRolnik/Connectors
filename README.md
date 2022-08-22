@@ -11,3 +11,6 @@
 - last_request_date
 - fields_mapping
 - client_id
+
+Ссылка для скачивания Excel файла
+https://pythonapps.pythonanywhere.com/stocks.xls
