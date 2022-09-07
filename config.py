@@ -1,8 +1,11 @@
 # максимальное кол-во товаров можно отправлять в одном запросе
 MAX_NUMBER_OF_PRODUCTS = 1000
 
-# данные для подключения к локальной БД (таблица suppliers)
+# данные для подключения к локальной БД (таблицы client, suppliers, supplier_client)
 LOCAL_DB_DSN = f'postgresql://postgres:postgres@localhost/postgres'
+
+# URL метода для записи остатков
+STOCKS_API_URL = 'http://localhost:5000/stocks'
 
 # данные для подключения к БД Ecom Seller (market_db)
 MARKET_DB_DSN = """

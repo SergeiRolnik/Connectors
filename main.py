@@ -10,10 +10,6 @@ from config import *
 logger.remove()
 logger.add(sink='logfile.log', format="{time} {level} {message}", level="INFO")
 
-STOCKS_API_URL = 'http://localhost:5000/stocks'
-table_name_suppliers = 'suppliers'
-table_name_supplier_client = 'supplier_client'
-
 # для теста (в дальнейшем нужно подтягивать информацию из соотв. таблиц, account_list, wh_table)
 test_account_id = 105
 test_warehouse_id = 777
