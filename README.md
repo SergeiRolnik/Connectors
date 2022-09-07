@@ -6,6 +6,6 @@
 ![](db_scheme.jpg)
 
 
+### Примеры записей в таблице suppliers
 
-Ссылка для скачивания Excel файла
-https://pythonapps.pythonanywhere.com/files/stocks.xls
+![](suppliers.jpg)
