@@ -202,7 +202,7 @@ def main():
             connector = FTPConnector(user, password, 80, 10, resource_url)  # port=80, timeout=10
 
         response = connector.send_stocks_to_ecom_api()
-        update_last_request_date(client_id, supplier_id)  # записываем в таблицу suppliers текущую дату
+        update_last_request_date(client_id, supplier_id)  # записываем в таблицу supplier_client текущую дату
         print(f'Обработка остатков поставщика {company} завершена.', response)
 
     print('Работа программы завершена.')
