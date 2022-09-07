@@ -1,16 +1,11 @@
 Программа позволяет подключаться к ресурсам поставщиков
 и скачивать данные о товарах и остатках.
 
-Структура таблицы suppliers
-- company
-- resource_url
-- connection_method
-- user
-- password
-- api_key
-- last_request_date
-- fields_mapping
-- client_id
+Структура таблиц
+
+![](db_scheme.jpg)
+
+
 
 Ссылка для скачивания Excel файла
-https://pythonapps.pythonanywhere.com/stocks.xls
+https://pythonapps.pythonanywhere.com/files/stocks.xls
