@@ -2,6 +2,7 @@ import requests
 from fake_useragent import UserAgent
 
 
+# имя функции для каждого поставщика указано в БД (таблица suppliers, столбец supplier_func)
 def get_stocks_from_samson_api(url, api_key):
     ua = UserAgent()
     user_agent = ua.random
@@ -24,6 +25,7 @@ def get_stocks_from_samson_api(url, api_key):
     return products  # список товар-остаток [{'offer_id': 'abc', 'stock': 100} ... ]
 
 
+# имя функции для каждого поставщика указано в БД (таблица suppliers, столбец supplier_func)
 def get_stocks_from_another_supplier_api(url, api_key):
     headers = {
         # здесь свой код
